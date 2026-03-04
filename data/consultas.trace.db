@@ -254,3 +254,9 @@ Caused by: org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Wrong user name
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:522)
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
 	... 60 more
+2026-03-03 22:12:38.270550-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement " \000d\000a  [*]""nome"": ""Cardiologia"",\000d\000a  ""descricao"": ""Especialidade do coração""\000d\000a "; SQL statement:
+ 
+  "nome": "Cardiologia",
+  "descricao": "Especialidade do coração"
+  [42000-240]
