@@ -39,4 +39,10 @@ public class EspecialidadeService {
         return repository.findById(id)
                 .orElseThrow(() -> new RecursoNaoEncontradoException("Especialidade não encontrada"));
     }
+    public Especialidade atualizar(Long id, Especialidade especialidade) {
+        return null;
+    }
+
+    public void deletar(Long id) {
+    }
 }
